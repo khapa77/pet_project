@@ -1,0 +1,29 @@
+\documentclass[a4paper,12pt]{book} % Формат A4, шрифт 12pt
+
+\usepackage[utf8]{inputenc}  % Кодировка UTF-8
+\usepackage[T1]{fontenc}     % Улучшенное отображение шрифтов
+\usepackage[russian]{babel}  % Поддержка русского языка
+
+\usepackage{geometry}        % Настройки полей
+\geometry{top=2cm, bottom=2cm, left=2.5cm, right=2.5cm}
+
+\usepackage{graphicx}        % Для вставки картинок
+\usepackage{hyperref}        % Ссылки в документе
+
+\begin{document}
+
+\frontmatter % Вступительные части
+\title{Название книги}
+\author{Имя Автора}
+\date{\today}
+\maketitle
+
+\tableofcontents % Оглавление
+
+\mainmatter % Основная часть
+\input{chapters/chapter1.tex}
+\input{chapters/chapter2.tex}
+\input{chapters/chapter3.tex}
+
+\end{document}
+
