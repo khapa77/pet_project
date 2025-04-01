@@ -16,5 +16,5 @@ UNIX SECRETS
 
 Количество страниц — 1072, формат издания — 70x100/16, тираж — 4000, ISBN — 5-8459-0068-9, 0-7645-3320-7. 1
 
-![Armstrong UNIX](./src/images/cover.png)
+![Armstrong UNIX](src/images/cover.png)
 
